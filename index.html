@@ -90,7 +90,7 @@
             </div>
 
 
-            <div class="story__skill">
+            <div class="    ">
 
                 <div class="container h-100 ">
                     <div class="row h-100 no-gutters ">
@@ -98,17 +98,17 @@
                             <div class="story__skill-left d-flex align-items-center h-100">
                                 <div class="story__skill-content w-100 pr-5">
                                     <h3 class="story__skill-title">Professional Skills</h3>
-                                    <p class="story__skill-desc">UI/UX Design <span>75%</span> </p>
+                                    <p class="story__skill-desc">UI/UX Design <span class="story__skill-percent" data-percent="75">0</span>% </p>
                                     <div class="progress" style="height: 3px;">
                                         <div class="progress-bar skill_one  " role="progressbar" aria-valuenow="75"
                                             aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <p class="story__skill-desc">web development <span>90%</span> </p>
+                                    <p class="story__skill-desc">web development <span class="story__skill-percent" data-percent="90">0</span>% </p>
                                     <div class="progress  " style="height: 3px;">
                                         <div class="progress-bar skill_two" role="progressbar" aria-valuenow="90"
                                             aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <p class="story__skill-desc">marketing <span>65%</span> </p>
+                                    <p class="story__skill-desc">marketing <span class="story__skill-percent" data-percent="65">0</span>% </p>
                                     <div class="progress  " style="height: 3px;">
                                         <div class="progress-bar skill_three" role="progressbar" aria-valuenow="65"
                                             aria-valuemin="0" aria-valuemax="100"></div>
@@ -358,7 +358,7 @@
                                 <li data-target="#quote" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="carousel-item  ">
+                                <div class="carousel-item active">
                                     <div
                                         class="slider__text d-flex flex-column align-items-center justify-content-center">
                                         <p class="slider__text-blockquote text-black">“ Outstanding job and exceeded all
@@ -373,7 +373,7 @@
                                         <p class="slider__text-author text-black">Michael Hopkins</p>
                                     </div>
                                 </div>
-                                <div class="carousel-item active">
+                                <div class="carousel-item ">
                                     <div
                                         class="slider__text d-flex flex-column align-items-center justify-content-center">
                                         <p class="slider__text-blockquote text-white">“ Outstanding job and exceeded all
@@ -477,12 +477,12 @@
                         <div class="col-12 col-lg-4 ">
 
                             <div class="project__form-name">
-                                <input class="w-100 project__form-input" type="text" name="youname" placeholder="Your Name">
+                                <input class="w-100 project__form-input" required type="text" name="youname" placeholder="Your Name">
                             </div>
                         </div>
                         <div class="col-12 col-lg-4 ">
                             <div class="project__form-mail">
-                                <input class="w-100 project__form-input" type="email" name="youmail" placeholder="Your Email">
+                                <input class="w-100 project__form-input" required type="email" name="youmail" placeholder="Your Email">
                             </div>
                         </div>
 
@@ -575,6 +575,7 @@
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/popper.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
